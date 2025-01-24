@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Basic contact form using HTML </title>
+</head>
+
+<body bgcolor="#1ba4c8">
+    <blockquote>
+        <h1>
+            <font color="white"><b>Contact Form</b></font>
+        </h1>
+        <p>
+            <font color="white">Please fill in your information and we'll be sending your order in on time.</font>
+        </p><br><br><br>
+        <form>
+            <font color="white"><label for="name"> Your Name &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label>
+            </font>
+            <input size="18" type="text" id="name" name="name" placeholder="First Name">
+            <input size="18" type="text" id="name" name="name" placeholder="Last Name"><br><br>
+            <font color="white"><label for="email"> Your Email &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;</label></font>
+            <input size="42" type="email" id="email" name="email" placeholder="e.g. hello@contact.net"><br>
+            <p>
+                <font color="white">Phone* &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                    <input <input size="10" type="text" placeholder="###" required>
+                    <input size="10" type="text" placeholder="###" required>
+                    <input size="10" type="text" placeholder="###" required>
+                </font>
+            </p>
+            <font color="white"><label for="message-subject">Message Subject:* </font></label>
+            <select id="message-subject" name="message-subject" required size="1">
+                <option size="10" value="">other</option>
+                <option value="general-inquiry">General Inquiry</option>
+                <option value="support-request">Support Request</option>
+                <option value="feedback">Feedback</option>
+                <option value="complaint">Complaint</option>
+                <option value="partnership-request">Partnership Request</option>
+                <option value="job-application">Job Application</option>
+                <option value="product-info">Product Information</option>
+                <option value="billing-inquiry">Billing Inquiry</option>
+                <option value="technical-issue">Technical Issue</option>
+            </select><br>
+            <p>
+                <font color="white">Message*&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; <textarea
+                        name="myText" cols="40" rows="5"></textarea></font>
+            </p>
+            <p>
+                <font color="white">Verification* &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <img
+                        src="./recaptha.png" alt="" width="200"
+                        height="50"></font>
+            </p>
+            <hr color="white" width="450" size="1" align="left"><br>
+            <input type="submit" value="SUBMIT FORM">
+    </blockquote>
+    </form>
+</body>
+
+</html>
